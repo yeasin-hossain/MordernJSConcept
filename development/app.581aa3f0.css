@@ -1,0 +1,19 @@
+.card {
+  background-color: blueviolet;
+  width: 450px;
+  padding: 15px;
+  display: block;
+  margin: auto;
+}
+.card .card__header {
+  text-align: left;
+  color: black;
+  font-weight: 600;
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+/*# sourceMappingURL=/app.581aa3f0.css.map */
