@@ -214,7 +214,7 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = void 0;
 
 var Post = function Post() {
-  var template = "\n    <div class=\"card\">\n\t\t\t\t<div class=\"card__header\">\n\t\t\t\t\t<h4>THis is Name</h4>\n\t\t\t\t\t<p>Lorem ipsum dolor sit amet consectetur.</p>\n\t\t\t\t\t<h5>$5</h5>\n\t\t\t\t</div>\n\t\t\t</div>\n    ";
+  var template = "\n    <div class=\"card\">\n\t\t\t\t<div class=\"card__header\">\n\t\t\t\t\t<h4>THis is Name</h4>\n\t\t\t\t\t<p>Lorem ipsum dolor sit amen consenter.</p>\n\t\t\t\t\t<h5>$5</h5>\n\t\t\t\t</div>\n\t\t\t</div>\n    ";
   return template;
 };
 
@@ -237,7 +237,6 @@ var app = function app() {
   document.querySelector('#post').innerHTML = _post.default;
 };
 
-console.log(_header.default);
 app();
 },{"./scss/app.scss":"../src/scss/app.scss","./components/header.js":"../src/components/header.js","./components/post.js":"../src/components/post.js"}],"../node_modules/parcel-bundler/src/builtins/hmr-runtime.js":[function(require,module,exports) {
 var global = arguments[3];
@@ -267,7 +266,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "22297" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "1471" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

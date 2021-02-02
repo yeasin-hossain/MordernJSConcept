@@ -3,7 +3,7 @@ const Post = () => {
     <div class="card">
 				<div class="card__header">
 					<h4>THis is Name</h4>
-					<p>Lorem ipsum dolor sit amet consectetur.</p>
+					<p>Lorem ipsum dolor sit amen consenter.</p>
 					<h5>$5</h5>
 				</div>
 			</div>

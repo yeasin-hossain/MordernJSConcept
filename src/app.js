@@ -6,5 +6,5 @@ const app = () => {
 	document.querySelector('#header').innerHTML = Header;
 	document.querySelector('#post').innerHTML = Post;
 };
-console.log(Header);
+
 app();
